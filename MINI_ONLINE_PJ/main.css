@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+
+
+/* 폰트 */
+  @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&family=Hahmlet:wght@100&family=Noto+Sans+KR:wght@500&family=Qwitcher+Grypen:wght@700&family=Song+Myung&display=swap');
+
+
+/*  
+ font-family: 'Black Han Sans', sans-serif;
+font-family: 'Gowun Dodum', sans-serif;
+font-family: 'Hahmlet', serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Song Myung', serif; 
+*/
+
+/* 프라하 소개 사이트 메인 CSS */
+
+/* 초기화 */
+html,
+body,
+h1,
+h2,
+nav
+{
+    margin: 0;
+    padding: 0;
+}
+/* 박스 공통 CSS */
+
+/* 공사중 표시 */
+body{
+    border: 2px dashed lime;
+    background-color: #233956;
+}
+/* 메인 페이지 */
+
+#top{
+    height: 500px;
+    background: url(./image/main1.jpg)no-repeat center/cover;
+    border: 9px solid #f6b24d8c;
+}
+
+#top h1{
+    padding: 150px;
+    text-align: center;
+    color: white;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #000;
+    
+}
+/* 메뉴 링크 a */
+
+#gnb a {
+    margin: 0 5vw;
+    display: inline-block;
+    text-decoration: none; 
+    color: #fefffe; 
+    font-size: 20px;
+    
+    font-family: 'Gowun Dodum', sans-serif;
+    vertical-align: -2px; 
+    background-color: #18142282;
+    padding: 10px 40px;
+    border-radius: 30px;
+    
+}
+#gnb a:hover {
+    color: rgb(246, 246, 241);
+    text-shadow: 1px 1px #cfd2e0;
+}
+
+nav{
+    text-align: center;
+    margin-top: 20px;
+}
+.History{
+    
+}
