@@ -37,17 +37,17 @@ body{
 /* 메인 페이지 */
 
 #top{
-    height: 500px;
+    height: 40vw;
     background: url(./image/main1.jpg)no-repeat center/cover;
     border: 9px solid #f6b24d8c;
 }
 
 #top h1{
-    padding: 150px;
+    padding:15vw;
     text-align: center;
     color: white;
     font-family: 'Qwitcher Grypen', cursive;
-    font-size: 60px;
+    font-size: 5vw;
     text-shadow: 2px 2px 2px #000;
     
 }
@@ -58,12 +58,12 @@ body{
     display: inline-block;
     text-decoration: none; 
     color: #fefffe; 
-    font-size: 20px;
+    font-size: 2vw;
     
     font-family: 'Gowun Dodum', sans-serif;
     vertical-align: -2px; 
     background-color: #18142282;
-    padding: 10px 40px;
+    padding: 1vw 4vw;
     border-radius: 30px;
     
 }
